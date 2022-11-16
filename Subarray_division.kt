@@ -1,3 +1,4 @@
+
 import java.io.*
 import java.math.*
 import java.security.*
@@ -31,7 +32,7 @@ fun birthday(s: Array<Int>, d: Int, m: Int): Int {
 var sum=0
 var counter=0  
 for (i in 0..s.size-1) {
-sum=0
+    sum=0
 for (j in i..(i+m)-1) {
     if((i+m)-1<s.size){
         sum+=s[j]
@@ -41,7 +42,11 @@ for (j in i..(i+m)-1) {
 if(sum==d)
 counter++
 }
+
+
   return counter
+}
+
 }
 
 fun main(args: Array<String>) {
