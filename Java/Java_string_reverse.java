@@ -2,7 +2,7 @@ package Java;
 
 import java.util.Scanner;
 
-class Java_string_reverse {
+class Solution {
     public static void main(String[] args) {
         boolean isPalindrome=true;
         Scanner sc=new Scanner(System.in);
